@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Database</title>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>TIME</th>
+            <th>TRANSACTIONS</th>
+            <th>ADDRESS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="request : ${requests}">
+            <td><span th:text="${request.getId()}">ID</span></td>
+            <td><span th:text="${request.getTime_sent()}">TIME</span></td>
+            <td align="center"><span th:text="${request.getTransactions()}">TRANSACTIONS</span></td>
+            <td align="right"><span th:text="${request.getAddress()}">ADDRESS</span></td>
+        </tr>
+    </tbody>
+
+</table>
+
+
+<br/>
+<hr/>
+</body>
+</html>
