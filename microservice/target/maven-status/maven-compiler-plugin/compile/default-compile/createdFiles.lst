@@ -1,0 +1,5 @@
+com/example/microservice/entity/Request.class
+com/example/microservice/DAO/RequestDAO.class
+com/example/microservice/config/SpringConfig.class
+com/example/microservice/MicroserviceApplication.class
+com/example/microservice/controllers/RequestController.class

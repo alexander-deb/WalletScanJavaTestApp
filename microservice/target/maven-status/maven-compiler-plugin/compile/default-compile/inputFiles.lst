@@ -1,0 +1,5 @@
+/home/alexander/WalletScanJavaTestApp/microservice/src/main/java/com/example/microservice/entity/Request.java
+/home/alexander/WalletScanJavaTestApp/microservice/src/main/java/com/example/microservice/controllers/RequestController.java
+/home/alexander/WalletScanJavaTestApp/microservice/src/main/java/com/example/microservice/MicroserviceApplication.java
+/home/alexander/WalletScanJavaTestApp/microservice/src/main/java/com/example/microservice/DAO/RequestDAO.java
+/home/alexander/WalletScanJavaTestApp/microservice/src/main/java/com/example/microservice/config/SpringConfig.java

@@ -21,6 +21,7 @@ public class RequestDAO {
         return jdbcTemplate.query("SELECT * FROM requests", BeanPropertyRowMapper.newInstance(Request.class));
     }
     public void saveRequest(Request request)  {
+    	jdbcTemplate.update("CREATE TABLE IF NOT EXISTS requests (id SERIAL NOT NULL PRIMARY KEY, time_sent VARCHAR(50) NOT NULL, address VARCHAR(50) NOT NULL, transactions BIGINT);");
         jdbcTemplate.update("INSERT INTO requests(time_sent, address, transactions) VALUES(?, ?, ?)", request.getTime_sent(),
                 request.getAddress(), request.getTransactions());
     }

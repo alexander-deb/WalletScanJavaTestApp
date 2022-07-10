@@ -1,0 +1,7 @@
+#
+#Mon Jul 11 02:18:08 MSK 2022
+com.example.microservice.DAO.RequestDAO=org.springframework.stereotype.Component
+com.example.microservice.MicroserviceApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+com.example.microservice.config.SpringConfig=org.springframework.stereotype.Component
+com.example.microservice.controllers.RequestController=org.springframework.stereotype.Component
+com.example.microservice.entity.Request=org.springframework.stereotype.Component

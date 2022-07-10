@@ -10,10 +10,15 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 @Component
+
 public class Request {
+
     private long id;
+
     private String time_sent;
+
     private String address;
+
     private long transactions;
 
 
