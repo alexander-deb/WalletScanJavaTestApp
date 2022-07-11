@@ -29,6 +29,7 @@ sudo docker-compose up
 
 Query: http://localhost:8080/request  
 Parameters: "address" - address of your Ethereum Wallet
+
 Example: http://localhost:8080/request?address=0xA3ef0baDD16e3113c1b5CD600933edd32194A5F3
 
 Query: http://localhost:8080/show_all_requests  
