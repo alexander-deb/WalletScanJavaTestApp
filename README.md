@@ -17,11 +17,11 @@ Then you need to compile project and copy .jre to the docker directory:
 ```aidl
 cd microservice
 ./mvnw clean package -DskipTests
-cp /target/microservice-0.0.1-SNAPSHOT.jar /src/main/docker
+cp target/microservice-0.0.1-SNAPSHOT.jar src/main/docker
 ```
 Then you can run docker-compose script:
 ```aidl
-cd /src/main/docker
+cd src/main/docker
 sudo docker-compose up
 ```
 
