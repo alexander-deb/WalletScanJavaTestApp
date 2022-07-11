@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXIST requests (
-  id SERIAL NOT NULL PRIMARY KEY,
-  time_sent VARCHAR(50) NOT NULL,
-  address VARCHAR(50) NOT NULL,
-  transactions BIGINT,
-);
